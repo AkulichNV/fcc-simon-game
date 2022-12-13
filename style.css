@@ -1,0 +1,101 @@
+body {
+    font-family: 'Righteous', cursive !important;
+    font-size: 50px !important;
+  }
+  p {
+    margin: auto;
+    text-align: center;
+  }
+  .fCC {
+    font-size: 20px;
+  }
+  .wrap { 
+    position: relative; 
+    height: 422px; 
+    width: 422px;
+    border: 16px solid black;
+    margin: auto;
+    margin-top: 5%;
+    background: black;
+    border-radius: 50%;
+  } 
+  .square { 
+    display: inline-block; 
+    height: 200px; 
+    width: 200px; 
+    border: 2px solid black;
+  } 
+  .circle { 
+    position: absolute; 
+    height: 208px; 
+    width: 208px; 
+    top: 50%; 
+    left: 50%; 
+    background: black; 
+    border-radius: 50%; 
+    transform: translate(-50%, -50%); 
+    border: 15px solid black; 
+  } 
+  .square:nth-child(1) { 
+    border-radius: 100% 0 0 0; 
+    background: green; 
+  } 
+  .square:nth-child(2) { 
+    border-radius: 0 100% 0 0; 
+    background: red; 
+  } 
+  .square:nth-child(3) { 
+    border-radius: 0 0 0 100%; 
+    background: yellow; 
+  } 
+  .square:nth-child(4) { 
+    border-radius: 0 0 100% 0; 
+    background: blue; 
+  }
+  .sq { 
+    position: absolute; 
+    display: inline-block; 
+    height: 100px; 
+    width: 100px; 
+    border: 1px solid black; 
+  }
+  .sq p {
+    margin: 8px 15px;
+    text-align: right;
+  }
+  .sq:nth-child(1) { 
+    border-radius: 100% 0 0 0; 
+    background: white/*tomato*/ url('./assets/icons/switch.png') no-repeat;
+    background-size: 50% 50%; 
+    background-position: 70% 70%;
+  }
+  .sq:nth-child(1):hover {
+    cursor: pointer;
+  }
+  .sq:nth-child(2) { 
+    margin-left: 105px;
+    border-radius: 0 100% 0 0; 
+    background: white/*mediumseagreen*/; 
+    background-size: 65% 65%; 
+    background-position: 30% 80%;
+    /* cursor: default !important; */
+  } 
+  /* .sq:nth-child(2):hover {
+    cursor: pointer;
+  } */
+  .sq:nth-child(3) { 
+    margin-top: 105px;
+    border-radius: 0 0 0 100%; 
+    background: white/*dodgerblue*/; 
+  } 
+  .sq:nth-child(4) { 
+    margin-top: 105px;
+    margin-left: 105px;
+    border-radius: 0 0 100% 0; 
+    background: white/*khaki*/ ;
+    background-size: 50% 50%; 
+    background-position: 30% 30%; 
+  }
+  /* .sq:nth-child(4):hover {
+    cursor: pointer;
+  } */
